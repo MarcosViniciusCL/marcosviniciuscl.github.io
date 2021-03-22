@@ -10,8 +10,15 @@ header {
 h1 {
     font-family: 'Press Start 2P', sans-serif;
     color: #FFF;
-    text-shadow: 5px 5px 0 #1B1464;
+    text-shadow: 5px 5px 0 #000;
 }
+
+h2 {
+    font-family: 'Press Start 2P', sans-serif;
+    color: #FFF;
+    text-shadow: 5px 5px 0 #000;
+}
+
 
 a {
     display: inline-flex;
@@ -36,7 +43,7 @@ nav {
     text-align: right;
 }
 
-#button {
+.button {
     display: inline-block;
     background-color: #FFC312;
     box-shadow: 5px 5px 0 #1B1464;
@@ -45,6 +52,42 @@ nav {
     transition: transform 100ms linear;
 }
 
-#button:hover {
+.button:hover {
     transform: scale(1.08);
+}
+
+.banner {
+    background-color: azure;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 797px;
+}
+
+.banner .button {
+
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#3A4042;
+    width: 627px;
+    height: 184px;
+    box-shadow: 5px 5px 0 #1B1464;
+    margin-top: 116px;
+    margin-left: 91px;
+}
+
+.title h1 {
+    color: #F25A70;
+    font-size: 40px;
+}
+
+.title h2 {
+    color: #FFF;
+    font-size: 26px;
+    margin-top: 28px;
 }
